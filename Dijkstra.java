@@ -44,10 +44,6 @@ public class Dijkstra
 
 	public void pathfind(int begin, int end)
 	{
-		/*
-		 * for (Node node : nodes) { if (node.name == begin) { node.curDistance = 0;
-		 * nextNode.add(node); } }
-		 */
 		nodes[begin].curDistance = 0;
 		nodes[begin].route += nodes[begin].nodeID;
 		nextNode.add(nodes[begin]);
